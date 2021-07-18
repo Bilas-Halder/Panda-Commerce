@@ -1,3 +1,57 @@
+/* Navbar */
+.float-right{
+    float: right;
+    margin-left: auto;
+    margin-right: 15%;
+}
+.src-box{
+    width: 100%;
+    padding: .375rem .85rem;
+    border: 1px solid #ced4da;
+    border-right: none;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 0rem;
+    border-bottom-right-radius: 0rem;
+    border-bottom-left-radius: 1rem;
+    transition: all .15s ease-in-out;
+}
+.src-box:focus{
+    border-color: #247cff;
+    outline: 0;
+}
+
+.src-btn{
+    padding: .375rem .85rem;
+    font-size: 1rem;
+    color: white;
+    background-color: gray;
+    background-clip: padding-box;
+    border: 1px solid gray;
+    border-left: none;
+
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 0rem;
+}
+.src-btn:hover{
+    padding: .275rem .705rem;
+    font-size: 1.1rem;
+    color: white;
+}
+
+.nav-btn:hover
+{
+    margin-top: 2px;
+    padding: 5px 0px;
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+    box-shadow: -1px 2px 5px grey;
+}
+
+
+/* carousel */
 .carousel-bg-color{
     background-color: #FEEAE9;
     border-radius: 0.5rem;
@@ -8,6 +62,8 @@
 .p-top{
     padding-top: 4rem;
 }
+
+/* Primary and secondary button */
 .custom-btn-primary{
     background-image: linear-gradient(to bottom left, #fc3a87,#fc0668);
     color: white;
@@ -37,6 +93,8 @@
     margin-bottom: 3px;
 }
 
+/* watch bags shoes grid */
+
 .watch,.bags,.shoes{
     background-image: linear-gradient(to bottom left, #FFCE1B,#FF9E34);
     border-radius: 1rem;
@@ -47,6 +105,8 @@
 .shoes{
     background-image: linear-gradient(to right bottom, #4274FE,#3F07F8);
 }
+
+/* subscribe form */
 
 .custom-form-control
 {
