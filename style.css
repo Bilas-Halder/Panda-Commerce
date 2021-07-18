@@ -1,0 +1,62 @@
+.carousel-bg-color{
+    background-color: #FEEAE9;
+    border-radius: 0.5rem;
+}
+.m-top{
+    margin-top: 7rem;
+}
+.p-top{
+    padding-top: 4rem;
+}
+.custom-btn-primary{
+    background-image: linear-gradient(to bottom left, #fc3a87,#fc0668);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s ease;
+}
+.custom-btn-primary:hover{
+    color: white;
+    box-shadow: 3px 5px 5px gray;
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+.custom-btn-secondary{
+    background-image: linear-gradient(to bottom left, #413f3f,#000000);
+    color: white;
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s ease;
+}
+.custom-btn-secondary:hover{
+    color: white;
+    box-shadow: 3px 5px 5px gray;
+    margin-top: -3px;
+    margin-bottom: 3px;
+}
+
+.watch,.bags,.shoes{
+    background-image: linear-gradient(to bottom left, #FFCE1B,#FF9E34);
+    border-radius: 1rem;
+}
+.bags{
+    background-image: linear-gradient(to right bottom, #fc4991,#fc0668);
+}
+.shoes{
+    background-image: linear-gradient(to right bottom, #4274FE,#3F07F8);
+}
+
+.custom-form-control
+{
+    width: 75%;
+    display: inline;
+    margin-right: 1%;
+}
+.subscriber-form .custom-btn-primary{
+    margin-top: -3px;
+}
+.subscriber-form .custom-btn-primary:hover{
+    margin-bottom: 0px;
+}
